@@ -1,0 +1,226 @@
+/* @charset "UTF-8"; */
+/* @import url("footer-style.css"); */
+
+:root{
+	
+	--bodyColor: #11052b;
+	
+	/* name are meant to be percentages */
+	--twenty: 180px;
+	--forty: 360px;
+	--sixty: 540px;
+	--eighty: 720px;
+	--hundred: 900px;
+
+	--maxwidth: var(--hundred);
+	--minwidth: 320px;
+	
+}
+/*****************************************************************************************/
+/************************************ BASE ELEMENTS **************************************/
+/*****************************************************************************************/
+*, ::after, ::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	color: darkgrey;
+    background-color: var(--bodyColor);
+	height: 100%;
+	width: 100%;
+}
+body{
+	overflow: hidden;
+	overflow-y: scroll;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+ul{
+	list-style-type: none;
+}
+/*****************************************************************************************/
+/************************************ FLEX ELEMENTS **************************************/
+/*****************************************************************************************/
+.rflx{
+	display: flex;
+	flex-direction: row;
+}
+.cflx{
+	display: flex;
+	flex-direction: column;
+}
+.ovflwHidden{
+	overflow: hidden;
+}
+.displayNone{
+	display: none;
+}
+.algnItmFlxEnd{
+	align-items: flex-end;
+}
+.algnItmFlxStart{
+	align-items: flex-start;
+}
+.algnItmFlxCenter{
+	align-items: center;
+}
+.jstfyCntSpBtwn{
+	justify-content: space-between;
+}
+.jstfyCntFlxEnd{
+	justify-content: flex-end;
+}
+.jstfyCntFlxStart{
+	justify-content: flex-start;
+}
+.jstfyCntFlxCenter{
+	justify-content: center;
+}
+.flxWrap{
+	flex-wrap: wrap;
+}
+/*****************************************************************************************/
+/************************************ SIZE ELEMENTS **************************************/
+/*****************************************************************************************/
+.fullWidth{
+	width: 100%;
+}
+.fullHeight{
+	height: 100%;
+}
+.fullMinWidth{
+	max-width: var(--minwidth);
+}
+.minWidth{
+	min-width: var(--minwidth);
+}
+/* numbers are meant to be percentages (100/5) */
+.w20{
+	width: var(--twenty);
+}
+.h20{
+	height: var(--twenty);
+}
+.w40{
+	width: var(--forty);
+}
+.h40{
+	height: var(--forty);
+}
+.w60{
+	width: var(--sixty);
+}
+.h60{
+	height: var(--sixty);
+}
+.w80{
+	width: var(--eighty);
+}
+.h80{
+	height: var(--eighty);
+}
+.w100{
+	width: var(--hundred);
+}
+.h100{
+	height: var(--hundred);
+}
+
+/*****************************************************************************************/
+/************************************* TEXT ELEMENTS *************************************/
+/*****************************************************************************************/
+.prelined{
+	white-space: pre-line;
+}
+
+/*****************************************************************************************/
+/********************************** POSITION ELEMENTS *************************************/
+/*****************************************************************************************/
+.mrgAuto{
+	margin: auto;
+}
+.mrgAuto0{
+	margin: auto 0;
+}
+.pddng5px{
+	padding: 5px;
+}
+.pddng0px5px{
+	padding: 0 5px;
+}
+.pddng5px0px{
+	padding: 5px 0;
+}
+.pddng0px{
+	padding: 0;
+}
+.mrg5px{
+	margin: 5px;
+}
+.mrgLeft5px{
+	margin-left: 5px;
+}
+.mrgRight5px{
+	margin-right: 5px;
+}
+.mrgTop5px{
+	margin-top: 5px;
+}
+.mrgBot5px{
+	margin-bottom: 5px;
+}
+.mrg5px0px{
+	margin: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.mrg0px5px{
+	margin: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.pddngBot0px{
+	padding-bottom: 0;
+}
+.pddngTop5px{
+	padding-top: 5px;
+}
+.pddngBot5px{
+	padding-bottom: 5px;
+}
+.pddngLft5px{
+	padding-left: 5px;
+}
+.pddngRgt5px{
+	padding-right: 5px;
+}
+.stckyTop{
+	/*reminder: parent should not have overflow*/
+	position: sticky;
+	top: 0;
+}
+.zIndxVeryHigh{
+	z-index: 999;
+}
+.zIndxHigh{
+	z-index: 75;
+}
+.zIndxMed{
+	z-index: 45;
+}
+.zIndxLow{
+	z-index: 25;
+}
+.posRelative{
+	position: relative;
+}
+
+
+
+
