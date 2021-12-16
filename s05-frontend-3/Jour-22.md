@@ -3,8 +3,6 @@
 ## Mardi 14/12/2021
 
 ### Javascript
-
-<<<<<<< HEAD
   * Découvrir le `DOM` :
     * [ ] Comprendre la différence entre `DOM`, `CSSOM` et `BOM` (https://javascript.info/browser-environment)
     * [ ] Comprendre la différence entre les 3 types de `nodes` dans le `DOM` (https://javascript.info/dom-nodes)
@@ -43,4 +41,3 @@
     * [ ] Istambul JS / C8
     * [ ] Sinon JS (Optionnel pour l'instant)
 * [ ] Ecrire ses premiers tests unitaires
->>>>>>> a2e793fc3c042d7969d53a04f961dd343a1be54a
