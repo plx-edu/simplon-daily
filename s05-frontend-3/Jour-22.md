@@ -4,6 +4,7 @@
 
 ### Javascript
 
+<<<<<<< HEAD
   * Découvrir le `DOM` :
     * [ ] Comprendre la différence entre `DOM`, `CSSOM` et `BOM` (https://javascript.info/browser-environment)
     * [ ] Comprendre la différence entre les 3 types de `nodes` dans le `DOM` (https://javascript.info/dom-nodes)
@@ -32,3 +33,14 @@
   * [x] Thinkful - String Drills: Repeater (https://www.codewars.com/kata/585a1a227cb58d8d740001c3)
   * [x] Remove First and Last Character Part Two (https://www.codewars.com/kata/570597e258b58f6edc00230d)
 
+=======
+* [ ] Découvrir ce que sont les tests unitaires
+  * [ ] Utilité et fonctionnement
+  * [ ] Les différents types de tests (unitaires, d'intégration, fonctionnels)
+* [ ] Découvrir la stack de tests unitaires à base de Mocha et utilité de chaque élément : 
+  * [ ] Mocha JS
+    * [ ] Chai JS
+    * [ ] Istambul JS / C8
+    * [ ] Sinon JS (Optionnel pour l'instant)
+* [ ] Ecrire ses premiers tests unitaires
+>>>>>>> a2e793fc3c042d7969d53a04f961dd343a1be54a
