@@ -70,7 +70,7 @@ Ci-dessous la vidéo d’une version basique :
 
 ## Modalités pédagogiques
 
-Livraison avant Dimanche 19 Décembre 2021 à Minuit sur Github.
+Livraison avant Dimanche 02 Janvier 2022 à Minuit sur Simplonline.
 Travail en individuel.
 
 
